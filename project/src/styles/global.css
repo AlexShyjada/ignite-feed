@@ -1,0 +1,36 @@
+:root {
+  --white: rgba(255, 255, 255, 1);
+  --gray-300: rgba(225, 225, 230, 1);
+  --gray-400: rgba(196, 196, 204, 1);
+  --gray-500: rgba(141, 141, 153, 1);
+  --gray-600: rgba(124, 124, 138, 1);
+  --gray-700: rgba(50, 50, 56, 1);
+  --gray-800: rgba(32, 32, 36, 1);
+  --gray-900: rgba(18, 18, 20, 1);
+  --green-light: rgba(0, 179, 126, 1);
+  --green: rgba(0, 135, 95, 1);
+  --red: rgba(247, 90, 104, 1);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: inherit;
+  box-sizing: border-box;
+  background: none;
+  border: none;
+  color: var(--gray-300);
+}
+
+body {
+  background: var(--gray-900);
+}
