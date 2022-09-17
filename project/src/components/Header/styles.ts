@@ -8,5 +8,5 @@ padding: 1.25rem;
 background: var(--gray-800);
 font-weight: 700;
 font-size: 1.5rem;
-line-height: 160%;
+line-height: 2.5rem;
 `
