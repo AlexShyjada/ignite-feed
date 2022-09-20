@@ -37,14 +37,14 @@ export const StyledComment = styled.div`
 
           strong {
             font-weight: 700;
-            font-size: 14px;
+            font-size: 0.875rem;
             line-height: 160%;
             color: var(--gray-300);
           }
 
           time {
             font-weight: 400;
-            font-size: 12px;
+            font-size: 0.75rem;
             line-height: 160%;
             color: var(--gray-500);
           }
@@ -63,8 +63,8 @@ export const StyledComment = styled.div`
         gap: 0.25rem;
         
         font-weight: 700;
-        font-size: 14px;
-        line-height: 16px;
+        font-size: 0.875rem;
+        line-height: 1rem;
         color: var(--gray-500);
         cursor: pointer;
 

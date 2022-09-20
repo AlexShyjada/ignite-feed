@@ -9,11 +9,20 @@ export const StyledPost = styled.article`
   background: var(--gray-800);
   border-radius: 0.5rem;
 
+  @media (max-width: 720px) {
+    padding: 1.5rem;
+  }
+
   header {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 500px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
 
     .userContainer {
       display: flex;
@@ -23,7 +32,7 @@ export const StyledPost = styled.article`
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 4px;
+        padding: 0.25rem;
         border-radius: 0.5rem;
         border: solid 2px var(--green-light);
         img {
@@ -39,12 +48,12 @@ export const StyledPost = styled.article`
         flex-direction: column;
         .name {
           font-weight: 700;
-          font-size: 16px;
+          font-size: 1rem;
           line-height: 1.55rem;
         }
         .position {
           font-weight: 400;
-          font-size: 14px;
+          font-size: 0.875rem;
           line-height: 1.35rem;
           color: var(--gray-500);
         }
@@ -54,7 +63,7 @@ export const StyledPost = styled.article`
     .postTime {
       font-style: normal;
       font-weight: 400;
-      font-size: 14px;
+      font-size: 0.875rem;
       line-height: 1.35rem;
       color: var(--gray-500);
     }
@@ -71,14 +80,15 @@ export const StyledPost = styled.article`
       align-items: baseline;
       line-height: 1.5rem;
       gap: 0.25rem;
-      a {
-        color: var(--green-light);
-        font-weight: 700;
-        transition: 0.2s;
+    }
 
-        &:hover {
-          filter: brightness(1.5);
-        }
+    a {
+      color: var(--green-light);
+      font-weight: 700;
+      transition: 0.2s;
+
+      &:hover {
+        filter: brightness(1.5);
       }
     }
   }
@@ -99,7 +109,7 @@ export const StyledPost = styled.article`
       border: solid 1px var(--gray-900);
 
       font-weight: 400;
-      font-size: 16px;
+      font-size: 1rem;
       line-height: 1.35rem;
       color: var(--gray-400);
 

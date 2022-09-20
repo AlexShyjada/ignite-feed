@@ -9,4 +9,8 @@ background: var(--gray-800);
 font-weight: 700;
 font-size: 1.5rem;
 line-height: 2.5rem;
+
+@media (max-width: 720px) {
+  height: 9.5rem;
+}
 `
